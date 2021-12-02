@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Layout da Tabela</title>
+	</head>
+	<body style="font-size: 20px;">
+		<h1>TABELA LAYOUT</h1>
+		
+		<table cellpadding="10" cellspacing="10" border="1">
+		<tr>
+			<th colspan="2">Este é o cabeçalho do site</th>
+		</tr>
+		<tr>
+			<td width="200">
+				<table cellpadding="5" cellspacing="5">
+					<tr>
+						<th>MENU DO SITE</th>
+					</tr>
+					<tr>
+						<td><a href="#">Home</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Sobre a empresa</a></td>
+					</tr>
+					<tr>
+						<td><a href ="#">Contato</a></td>
+					</tr>
+				</table>
+			</td>
+			<td>Espaço para o conteúdo do site, aqui pode ter outras tabelas dentro das colunas e dentro de outras tabelas</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2">
+				<table cellpadding="5" cellspacing="5" width="100%">
+					<tr>
+					<td width="25%" align="center">HTML</td>
+					<td width="25%" align="center">CSS</td>
+					<td width="25%" align="center">JavaScript</td>
+					<td width="25%" align="center">jQuery</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Espaço para o conteúdo do moodle, aqui pode ter outras atividades feitas pelo grupo G4. Ansiosos pela sua avaliação! :)</td>
+			<!--<td width="200">
+				<table cellpadding="5" cellspacing="5">
+					<tr>
+						<th>OUTRAS ATIVIDADES</th>
+					</tr>
+					<tr>
+						<td><a href="#">Podcast de análise</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Notícia</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Podcast de feedback</a></td>
+					</tr>
+				</table>
+			</td>-->
+			<td>
+				<h4>OUTRAS ATIVIDADES</h4>
+				<dl>
+					<dt>Podcasts</dt>
+						<dd><a href="#">Análise</a> da notícia</dd>
+						<dd>Comentando como <a href="#">realizamos</a> a notícia</dd>
+					<dt>Notícias</li>
+						<dd>Nossa primeira <a href="#">notícia</a> escrita</li>
+				</dl>
+			</td>
+		</tr>
+		
+		<tr>
+			<th colspan="2">Este é o rodapé do site</th>
+		</tr>
+		</table>	
+	</body>
+</html>

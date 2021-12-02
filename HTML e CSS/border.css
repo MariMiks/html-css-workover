@@ -1,0 +1,35 @@
+body {
+	font-family: Arial;
+}
+
+
+div {
+	width: 350px;
+	height: 560px;
+	background-color: #fafafa;
+}
+
+p {
+	margin: 10px;
+	padding: 10px;
+	border-color: orange;
+	border-width: 3px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.solid {border-style: solid}
+.dotted {border-style: dotted}
+.dashed {border-style: dashed}
+.double {border-style: double}
+.groove {border-style: groove}
+.ridge {border-style: ridge}
+.inset {border-style: inset}
+.outset {border-style: outset}
+.hidden {border-style: hidden}
+.porcent {
+	border-style: solid;
+	border-radius: 25%;
+	}
+
+.pixel {border-style: solid;}

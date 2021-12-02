@@ -1,0 +1,71 @@
+/*zera as formatações do navegador*/
+*{
+	margin: 0;
+}
+/*deixa todas as rows com 100%, . pq é uma classe,
+margin é o espaçamento entre as linhas*/
+/*se colocar background-color aqui vai pintar tudo e não vai separar*/
+.row {
+	margin-bottom: 30px;
+	width: 100%;
+	float: left;
+}
+
+/*ataca todas as divs dentro da row, com apenas um nível,
+utiliza esse pra conseguir atacar apenas essa parte da div row*/
+.row div {
+	background-color: brown;
+	height: 80px;
+	float: left;
+}
+/*estilizar o parágrafo*/
+p {
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	margin: 15px;
+}
+
+/*linha 1*/
+.linha1 .coluna{
+	width: 100%;
+}
+/*espaçamento entre elas é de 4%*/
+/*linha 2*/
+/*coluna com 48%*/
+/*tentar usar o calc ()*/
+.linha2 .coluna {
+	width: 48%;
+} .linha2 .coluna:last-child {
+	margin-left: 4%;
+}/*last-child faz com que a última coluna fique na direita*/
+
+
+/*linha 3*/
+.linha3 .coluna {
+	width: 30.66%;
+	margin-right: 4%;
+} /*zera a margin-right da ultima coluna da linha 3*/
+.linha3 .coluna:last-child {
+	margin-right: 0;
+}
+
+
+/*linha 4*/
+.linha4 .coluna {
+	width: 22%;
+	margin-right: 4%;
+}
+.linha4 .coluna:last-child {
+	margin-right: 0;
+}
+
+
+/*linha 5*/
+.linha5 .coluna {
+	width: 16.8%;
+	margin-right: 4%;
+}
+.linha5 .coluna:last-child {
+	margin-right: 0;
+}
